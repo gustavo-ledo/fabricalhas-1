@@ -23,7 +23,7 @@ import {
 export default function Header() {
     return (
         <header className="shadow-md flex-col">
-            <div className="w-full flex justify-center bg-blue-700 h-[30px]">
+            <div className="w-full hidden md:flex justify-center bg-blue-700 h-[30px]">
                 <div className="flex w-[60%] text-sm text-neutral-50 justify-around items-center">
                     <p className="flex items-center space-x-1"><Smartphone className="h-4" /><span>(41) 3031-5616</span></p>
                     <p className="flex items-center space-x-1"><MailIcon className="h-4" /><span>calhaserufosarauacaria.gmail.com</span></p>
