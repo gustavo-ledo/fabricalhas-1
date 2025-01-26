@@ -18,7 +18,7 @@ export function CarrouselHero() {
         {/* Slide 1 */}
         <SwiperSlide>
           <Image 
-            src='/exaustor.png' 
+            src='/slider/1.png' 
             className=" w-full lg:h-screen" 
             alt='exaustor' 
             height={1850} 
@@ -28,7 +28,7 @@ export function CarrouselHero() {
         {/* Slide 2 */}
         <SwiperSlide>
           <Image 
-            src='/calhas.png' 
+            src='/slider/2.png' 
             className=" w-full lg:h-screen" 
             alt='exaustor' 
             height={1850} 
@@ -37,7 +37,7 @@ export function CarrouselHero() {
         </SwiperSlide>
         <SwiperSlide>
           <Image 
-            src='/coifas.png' 
+            src='/slider/3.png' 
             className=" w-full lg:h-screen" 
             alt='exaustor' 
             height={1850} 
@@ -46,7 +46,7 @@ export function CarrouselHero() {
         </SwiperSlide>
         <SwiperSlide>
           <Image 
-            src='/chapa.png' 
+            src='/slider/4.png' 
             className=" w-full lg:h-screen" 
             alt='exaustor' 
             height={1850} 
