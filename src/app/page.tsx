@@ -15,12 +15,13 @@ export default function Home() {
   return (
     <div className="flex-col">
         <Header />
-        <div className="mt-2">
-          <HeroSection />
-        </div>
         <div>
           <CarrouselHero />
         </div>
+        <div className="mt-2">
+          <HeroSection />
+        </div>
+        
         <div>
           <CardProduct />
         </div>

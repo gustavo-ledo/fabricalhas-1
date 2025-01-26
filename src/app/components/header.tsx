@@ -31,9 +31,9 @@ export default function Header() {
                 </div>
             </div>
             <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
-                <div className="flex p-2 flex-wrap justify-between items-center mx-auto max-w-screen-lg">
+                <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-lg">
                     <a href="#" className="flex items-center">
-                        <Image src="/fabricalhas-logo.jpg" alt="fabricalhasaraucaria" height={100} width={100} />
+                        <Image src="/fabricalhas-logo.jpg" alt="fabricalhasaraucaria" height={200} width={200} />
                     </a>
                     <div className="flex items-center justify-center lg:order-2">
                         <a href="#" className="text-white bg-amber-500 hover:bg-primary-800 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 flex items-center space-x-2 text-center"><WhatsappIcon/><span>Fale conosco</span></a>
