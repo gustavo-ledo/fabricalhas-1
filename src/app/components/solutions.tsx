@@ -28,7 +28,25 @@ export function CarrouselHero() {
         {/* Slide 2 */}
         <SwiperSlide>
           <Image 
-            src='/exaustor.png' 
+            src='/calhas.png' 
+            className=" w-full lg:h-screen" 
+            alt='exaustor' 
+            height={1850} 
+            width={1850} 
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image 
+            src='/coifas.png' 
+            className=" w-full lg:h-screen" 
+            alt='exaustor' 
+            height={1850} 
+            width={1850} 
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image 
+            src='/chapa.png' 
             className=" w-full lg:h-screen" 
             alt='exaustor' 
             height={1850} 
