@@ -48,7 +48,7 @@ export default function Header() {
               href="https://api.whatsapp.com/send?phone=5541992340296"
               className="text-white bg-amber-500 hover:bg-primary-800 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 flex items-center space-x-2 text-center"
             >
-              <WhatsappIcon />
+              <WhatsappIcon height="20" width="20" />
               <span>Fale conosco</span>
             </a>
 

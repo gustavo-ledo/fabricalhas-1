@@ -16,7 +16,7 @@ export default function HeroDoubleReverse() {
                     <p className="mb-4 text-white">"A eficiência operacional é essencial para o sucesso de qualquer negócio. Pensando nisso, a Fabricalhas apresenta sua linha de exaustores eólicos, a solução definitiva para ventilação industrial. Projetados com tecnologia avançada e materiais de alta qualidade, nossos exaustores otimizam o ambiente de trabalho, garantindo desempenho máximo e economia.
                     </p>
                     <p className="text-white">Com um design aerodinâmico, os exaustores aproveitam a força dos ventos para renovar o ar continuamente, eliminando calor excessivo, umidade e gases indesejados. Além de criar um ambiente mais saudável e confortável para sua equipe, a Fabricalhas oferece condições imperdíveis em toda a linha de exaustores eólicos. Potencialize a produtividade e o bem-estar do seu negócio. Entre em contato hoje mesmo e descubra como nossas soluções podem transformar seu estabelecimento!</p>
-                    <a href="#" className="text-white bg-amber-500 hover:bg-primary-800 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 flex items-center space-x-2 text-center mt-4 w-[250px]"><WhatsappIcon/><span>Fale conosco</span></a>
+                    <a href="#" className="text-white bg-amber-500 hover:bg-primary-800 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 flex items-center space-x-2 text-center mt-4 w-[250px]"><WhatsappIcon height="20" width="20"/><span>Fale conosco</span></a>
                 </div>
 
             </div>

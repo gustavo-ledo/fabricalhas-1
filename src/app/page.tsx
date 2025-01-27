@@ -10,14 +10,14 @@ import CardProduct from "./components/cardproduct";
 import Reviews from "./components/reviews";
 import Portfolio from "./components/portfolio";
 import  { CarrouselHero } from "./components/solutions";
+import WhatsappButton from "./components/whatsappbutton";
 
 export default function Home() {
   return (
     <div className="flex-col">
         <Header />
-        
+          <WhatsappButton />
           <CarrouselHero />
-        
         <div className="mt-2">
           <HeroSection />
         </div>
