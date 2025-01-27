@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export function CarrouselHero() {
   return (
-    <div className="h-[80vh]p-10 bg-amber-500">
+    <div className="h-[100vh] w-full bg-amber-500">
       <Swiper
         spaceBetween={16} // Espaçamento entre os slides
         slidesPerView={1} // Mostrar 1 slide por vez

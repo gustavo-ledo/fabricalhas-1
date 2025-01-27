@@ -15,9 +15,9 @@ export default function Home() {
   return (
     <div className="flex-col">
         <Header />
-        <div>
+        
           <CarrouselHero />
-        </div>
+        
         <div className="mt-2">
           <HeroSection />
         </div>
