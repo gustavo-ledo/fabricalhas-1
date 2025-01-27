@@ -8,12 +8,13 @@ import Image from "next/image";
 
 export function CarrouselHero() {
   return (
-    <div className="h-[30vh] lg:h-[100vh] w-full bg-amber-500">
+    <div className="h-[30vh] lg:h-[100vh] overflow-hidden touch-pan-y w-full bg-amber-500">
       <Swiper
         spaceBetween={16} // Espaçamento entre os slides
         slidesPerView={1} // Mostrar 1 slide por vez
         pagination={{ clickable: true }} // Ativar paginação clicável
-        modules={[Pagination]} // Adicionar o módulo de paginação
+        modules={[Pagination]}
+        className='h-full' // Adicionar o módulo de paginação
       >
         {/* Slide 1 */}
         <SwiperSlide>
