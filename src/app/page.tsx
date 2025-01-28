@@ -11,6 +11,7 @@ import Reviews from "./components/reviews";
 import Portfolio from "./components/portfolio";
 import  { CarrouselHero } from "./components/solutions";
 import WhatsappButton from "./components/whatsappbutton";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
         <div>
           <Reviews />
         </div>
+        <Footer />
     </div>
   );
 }

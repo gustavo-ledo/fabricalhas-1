@@ -34,11 +34,11 @@ export default function Header() {
           {/* Logo */}
           <a href="#" className="flex items-center">
             <Image
-              src="/fabricalhas-logo.jpg"
+              src="/Logos_fabricalhas/logo_final.png"
               className="h-[100px] w-[100px] object-contain lg:h-[100px] lg:w-[200px]"
               alt="fabricalhasaraucaria"
-              height={200}
-              width={200}
+              height={500}
+              width={500}
             />
           </a>
 
