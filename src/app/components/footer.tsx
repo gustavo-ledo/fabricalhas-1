@@ -50,7 +50,7 @@ export default function Footer() {
                                 <li className="mb-4">
                                 <Image
                                     src="/pagamento.png"
-                                    className="h-[100px] w-[200px] object-contain"
+                                    className="h-[100px] w-[170px] object-contain"
                                     alt="fabricalhasaraucaria"
                                     height={500}
                                     width={500}
