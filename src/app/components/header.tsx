@@ -98,7 +98,7 @@ export default function Header() {
           >
             <ul className="flex flex-col lg:flex-row lg:space-x-8 font-medium">
               <li>
-                <a href="#" className="block py-2 text-blue-700 font-semibold">
+                <a href="/" className="block py-2 text-blue-700 font-semibold">
                   Início
                 </a>
               </li>
