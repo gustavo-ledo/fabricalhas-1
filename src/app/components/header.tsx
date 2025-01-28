@@ -3,10 +3,16 @@ import { useState } from "react";
 import Image from "next/image";
 import { ChevronDown, Smartphone, MailIcon, MapPin } from "lucide-react";
 import WhatsappIcon from "./setIcons/whatsapp";
-
+import { useRouter } from "next/navigation";
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const route = useRouter();
+
+  const QuemSomos = () => {
+    route.push('/quem-somos')
+  }
 
   return (
     <header className="shadow-md flex-col">
@@ -97,7 +103,7 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <a href="#" className="block py-2 text-blue-700 font-semibold">
+                <a href="#" onClick={QuemSomos} className="block py-2 text-blue-700 font-semibold">
                   Quem Somos
                 </a>
               </li>
