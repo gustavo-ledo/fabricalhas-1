@@ -1,6 +1,6 @@
 export default function Numbers() {
     return (
-        <section className="bg-white h-[50vh] flex items-center">
+        <section className="bg-white h-[80vh] flex items-center">
             <div className="max-w-screen-xl space-y-5 px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
                 <h1 className="md:text-5xl text-3xl font-semibold text-blue-800">Nossos números!</h1>
                 <p>Na Fabricalhas, especializada em calhas e rufos, você encontra a combinação perfeita de qualidade e preço justo!</p>
