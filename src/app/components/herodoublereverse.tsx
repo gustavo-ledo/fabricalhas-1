@@ -9,7 +9,7 @@ export default function HeroDoubleReverse() {
             <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                 <div className="grid grid-cols-1 gap-2 mt-8">
                      <Image src="/Conteudo/exaustor2.webp" alt="fabricalhasaraucaria" className="w-full hidden md:flex h-96 object-cover rounded-2xl" height={400} width={400} />
-                     <Image src="/Conteudo/exautor.jpg" alt="fabricalhasaraucaria"  className="mt-4 h-96 object-cover w-full lg:mt-10 rounded-2xl" height={500} width={500} />
+                     <Image src="/Conteudo/exautor.jpg" alt="fabricalhasaraucaria"  className="md:mt-4 h-96 object-cover w-full lg:mt-10 rounded-2xl" height={500} width={500} />
                 </div>
                 <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                     <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white">Impulsione Seu Negócio com Soluções de Ventilação Eficientes!</h2>
