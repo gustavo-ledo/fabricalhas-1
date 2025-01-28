@@ -7,8 +7,8 @@ export default function HeroDoubleReverse() {
         <section className="bg-blue-700 dark:bg-gray-900">
             
             <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-                <div className="grid grid-cols-2 gap-4 mt-8">
-                     <Image src="/Conteudo/exaustor2.webp" alt="fabricalhasaraucaria" className="w-full  h-96 object-cover rounded-2xl" height={400} width={400} />
+                <div className="grid grid-cols-1 gap-2 mt-8">
+                     <Image src="/Conteudo/exaustor2.webp" alt="fabricalhasaraucaria" className="w-full hidden md:flex h-96 object-cover rounded-2xl" height={400} width={400} />
                      <Image src="/Conteudo/exautor.jpg" alt="fabricalhasaraucaria"  className="mt-4 h-96 object-cover w-full lg:mt-10 rounded-2xl" height={500} width={500} />
                 </div>
                 <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
