@@ -58,7 +58,7 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="w-[250px]">
+                        <div className="">
                             <h2 className="mb-6 text-xl border-b-amber-500 border-b-2 font-semibold text-blue-800 uppercase dark:text-white">Como chegar</h2>
                             <ul className=" text-blue-800">
                                 <li className="mb-4 w-[100px] lg:w-[250px]">
