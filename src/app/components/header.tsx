@@ -13,6 +13,24 @@ export default function Header() {
   const QuemSomos = () => {
     route.push('/quem-somos')
   }
+  const Calhas = () => {
+    route.push('/calhas-em-araucaria-pr')
+  }
+  const Coifas = () => {
+    route.push('/coifas-aco-galvanizado-em-araucaria')
+  }
+  const Condutores  = () => {
+    route.push('/condutores-de-calhas-em-araucaria')
+  }
+  const Dutos = () => {
+    route.push('/dutos-e-curvas-aco-galvanizado-em-araucaria')
+  }
+  const Exaustores = () => {
+    route.push('/exaustores-eolicos-em-araucaria')
+  }
+  const Rufos = () => {
+    route.push('/rufos-em-araucaria-pr')
+  }
 
   return (
     <header className="shadow-md flex-col">
@@ -124,7 +142,8 @@ export default function Header() {
                   <ul className="absolute left-0 w-[200px] bg-gray-100 rounded shadow-md mt-2 space-y-1">
                     <li>
                       <a
-                        href="#"
+                        href="/calhas-em-araucaria-pr"
+                        onClick={Calhas}
                         className="block px-4 py-2 hover:bg-gray-200 text-blue-700"
                       >
                         Calhas
@@ -133,6 +152,7 @@ export default function Header() {
                     <li>
                       <a
                         href="#"
+                        onClick={Rufos}
                         className="block px-4 py-2 hover:bg-gray-200 text-blue-700"
                       >
                         Rufos
@@ -141,6 +161,7 @@ export default function Header() {
                     <li>
                       <a
                         href="#"
+                        onClick={Condutores}
                         className="block px-4 py-2 hover:bg-gray-200 text-blue-700"
                       >
                         Condutores de Calhas
@@ -149,6 +170,7 @@ export default function Header() {
                     <li>
                       <a
                         href="#"
+                        onClick={Coifas}
                         className="block px-4 py-2 hover:bg-gray-200 text-blue-700"
                       >
                         Coifas
@@ -156,6 +178,7 @@ export default function Header() {
                     </li>
                     <li>
                       <a
+                       onClick={Dutos}
                         href="#"
                         className="block px-4 py-2 hover:bg-gray-200 text-blue-700"
                       >
@@ -165,6 +188,7 @@ export default function Header() {
                     <li>
                       <a
                         href="#"
+                        onClick={Exaustores}
                         className="block px-4 py-2 hover:bg-gray-200 text-blue-700"
                       >
                         Exaustores Eólicos
