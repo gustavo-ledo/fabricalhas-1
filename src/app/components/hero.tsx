@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-
+import Image from "next/image";
 export default function HeroSection() {
     return(
         <section className="bg-white dark:bg-gray-900">
@@ -14,8 +14,14 @@ export default function HeroSection() {
                         <a href="#" className="text-white bg-amber-500 hover:bg-primary-800 font-medium rounded-xl text-md px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 flex items-center space-x-2 text-center w-[330px]"><span>Conheça um pouco mais sobre nós</span><ArrowRight /></a>
                     </div>
                 </div>
-                <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                    
+                <div className=" flex xl:relative xl:top-16 lg:mt-0 lg:col-span-5 lg:flex">
+                    <Image
+                        src="/homem-fundo-branco.png"
+                        className="w-full object-contain"
+                        alt="fabricalhasaraucaria"
+                        height={1500}
+                        width={1500}
+                    />
                 </div>                
             </div>
         </section>
