@@ -1,5 +1,6 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
+import FacQuestions from "../components/produtos/FacQuestions";
 import Hero from "../components/produtos/Hero";
 import HeroDouble from "../components/produtos/HeroDouble";
 import HeroReverse from "../components/produtos/HeroReverse";
@@ -37,7 +38,11 @@ export default function Dutos() {
                 Redução de Custos a Longo Prazo: A durabilidade e a baixa manutenção associada ao aço galvanizado resultam em economia significativa a longo prazo, reduzindo a necessidade de substituições frequentes.
                 Estabilidade Estrutural: O aço galvanizado oferece grande resistência estrutural, garantindo que os sistemas de ventilação permaneçam estáveis e seguros ao longo do tempo.
                 " extraText2="" firstImg={'/Rufos/2.webp'} secondImg={'/Rufos/1.webp'} />
-                
+                <FacQuestions Q1="Qual é a função dos dutos de aço galvanizado?" R1="Eles são usados para transportar ar em sistemas de ventilação, distribuindo-o de forma eficiente em edifícios residenciais, comerciais e industriais." Q2="Quais são as vantagens do uso de dutos de aço galvanizado?
+                " R2="As principais vantagens incluem resistência à corrosão, durabilidade, facilidade de instalação e manutenção, além de serem adequados para uma variedade de ambientes." Q3="Como os dutos de aço galvanizado são instalados?
+                " R3="Eles são geralmente instalados conectando-se as seções de dutos com acessórios como cotovelos, joelhos, reduções e flanges, utilizando métodos de fixação adequados." Q4="Quais são as considerações de segurança ao instalar dutos de aço galvanizado?" R4="É importante usar equipamentos de proteção individual (EPI), como luvas e óculos de segurança, para evitar ferimentos durante a manipulação e instalação dos dutos." Q5="Como ocorre a galvanização dos dutos de aço?" R5="A galvanização é o processo de revestimento dos dutos de aço com uma camada de zinco por meio de imersão em um banho de zinco derretido ou por meio de um processo eletroquímico." Q6="Quais são os tipos de curvas de aço galvanizado disponíveis?
+                " R6="As curvas de aço galvanizado estão disponíveis em diversos tipos, como curvas de 90 graus, 45 graus, curvas de raio longo e curvas de raio curto." Q7="Qual é a diferença entre curvas de raio longo e curvas de raio curto?" R7="As curvas de raio longo têm um raio de curvatura maior, o que as torna mais suaves e menos restritivas ao fluxo de ar, enquanto as curvas de raio curto têm um raio de curvatura menor." Q8="Como as curvas de aço galvanizado são fixadas aos dutos?" R8="Elas geralmente são conectadas aos dutos usando métodos de fixação, como parafusos, rebites ou soldagem, dependendo do projeto e das especificações do sistema." Q9="Quais são as melhores práticas para manter os dutos de aço galvanizado?" R9="Recomenda-se realizar inspeções regulares para detectar corrosão ou danos, limpar os dutos conforme necessário e garantir que os sistemas de ventilação sejam mantidos adequadamente." Q10="Os dutos de aço galvanizado podem ser usados em ambientes externos?
+                " R10="Sim, os dutos de aço galvanizado são frequentemente usados em ambientes externos devido à sua resistência à corrosão, desde que sejam devidamente protegidos contra danos físicos e exposição a produtos químicos agressivos." />
             <Footer />
         </div>
     )

@@ -1,5 +1,6 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
+import FacQuestions from "../components/produtos/FacQuestions";
 import Hero from "../components/produtos/Hero";
 import HeroDouble from "../components/produtos/HeroDouble";
 import HeroReverse from "../components/produtos/HeroReverse";
@@ -53,6 +54,12 @@ export default function Coifas() {
                 Eliminação Eficiente: Remove fumaça, gordura e odores.
                 Durabilidade Comprovada: Aço galvanizado de alta resistência.
                 Ofertas Exclusivas: Preços acessíveis com instalação profissional." extraText="Proporcione à sua família um ambiente mais saudável e confortável. Aproveite nossas ofertas e transforme sua cozinha com ventilação de qualidade." extraText2=""  firstImg={'/Coifas/13.webp'} secondImg={'/Coifas/14.webp'} />
+            
+                <FacQuestions Q1="Qual é a durabilidade das coifas de aço galvanizado?" R1="As coifas de aço galvanizado são conhecidas por sua durabilidade excepcional, podendo durar muitos anos, mesmo em ambientes comerciais e industriais." Q2="Como é feita a manutenção das coifas de aço galvanizado?" R2="A manutenção das coifas de aço galvanizado é relativamente simples, geralmente envolvendo a limpeza regular das superfícies para remover acúmulos de gordura e sujeira." Q3="As coifas de aço galvanizado são resistentes à corrosão?
+                " R3="Sim, o aço galvanizado é altamente resistente à corrosão, o que torna as coifas ideais para ambientes onde há exposição a umidade e substâncias corrosivas." Q4="Quais são os benefícios da ventilação proporcionada pelas coifas de aço galvanizado?
+                " R4="Os benefícios incluem a remoção eficiente de fumaça, odores e partículas de gordura do ambiente, melhorando a qualidade do ar e reduzindo riscos à saúde." Q5="As coifas de aço galvanizado são adequadas para uso em cozinhas residenciais?" R5="Sim, as coifas de aço galvanizado são adequadas para uso em cozinhas residenciais, proporcionando uma ventilação eficaz e segura." Q6="Quais são os tamanhos disponíveis para as coifas de aço galvanizado?
+                " R6="As coifas de aço galvanizado podem ser fabricadas em uma variedade de tamanhos para atender às necessidades específicas de diferentes espaços, desde residências até grandes indústrias." Q7="Quais são as opções de instalação disponíveis para as coifas de aço galvanizado?
+                " R7="As coifas de aço galvanizado podem ser instaladas de forma integrada, suspensa ou em paredes, dependendo das necessidades e características do espaço." Q8="As coifas de aço galvanizado são adequadas para ambientes industriais?" R8="Sim, as coifas de aço galvanizado são ideais para ambientes industriais, devido à sua resistência e durabilidade, além da capacidade de lidar com altas demandas de ventilação." Q9="Quais são as vantagens de escolher as coifas de aço galvanizado em vez de outros materiais?" R9="As vantagens incluem durabilidade, resistência à corrosão, baixa manutenção e eficiência na remoção de fumaça e odores." Q10="Quais são os prazos de entrega para as coifas de aço galvanizado fornecidas pela Fabricalhas?" R10="Os prazos de entrega podem variar dependendo da complexidade do projeto e da demanda, mas a Fabricalhas se esforça para fornecer coifas de alta qualidade dentro de prazos razoáveis, garantindo a satisfação do cliente." />
             <Footer />
         </div>
     )

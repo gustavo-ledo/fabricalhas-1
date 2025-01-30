@@ -30,8 +30,6 @@ export default function Hero({ title, subTitle, description, Img }: Props) {
                 width={1500}
            />
               }
-               
-
                 </div>                
             </div>
         </section>

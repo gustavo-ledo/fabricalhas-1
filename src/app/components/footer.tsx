@@ -61,7 +61,7 @@ export default function Footer() {
                         <div className="">
                             <h2 className="mb-6 text-xl border-b-amber-500 border-b-2 font-semibold text-blue-800 uppercase dark:text-white">Como chegar</h2>
                             <ul className=" text-blue-800">
-                                <li className="mb-4 w-[200px] lg:w-[250px]">
+                                <li className="mb-4 text-sm lg:text-md w-[170px] lg:w-[200px]">
                                     <a href="https://maps.app.goo.gl/kzHo9toH1RvdRixQ7" target="_blank">R. Coudelaria de Tindiquera, 942 - Sabia - Araucária - PR CEP: 83708-040</a>
                                 </li>
                             </ul>

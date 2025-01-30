@@ -1,5 +1,6 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
+import FacQuestions from "../components/produtos/FacQuestions";
 import Hero from "../components/produtos/Hero";
 import HeroDouble from "../components/produtos/HeroDouble";
 import HeroReverse from "../components/produtos/HeroReverse";
@@ -7,7 +8,7 @@ import FeaturesTwo from "../components/quemsomoscomponent/featurestwo";
 
 export default function Calhas() {
     return(
-        <div>
+        <div className="">
             <Header />
                 <Hero title="Serviços Especializados em Calhas em Araucária" subTitle="Fabricalhas: Soluções de Qualidade em Calhas e Rufos" description="A Fabricalhas oferece serviços especializados em calhas de aço galvanizado na região de Araucária. Contamos com uma equipe experiente e dedicada a entregar soluções personalizadas para atender às suas necessidades de drenagem de água pluvial com eficiência e qualidade.
 
@@ -38,7 +39,9 @@ export default function Calhas() {
                 <HeroReverse title="Proteção Durável: Calhas de Aço Galvanizado para Comércios, Lojas, Galpões e Indústrias" description="Garanta a Segurança e Integridade de Seu Estabelecimento com a Fabricalhas" text="As calhas desempenham um papel crucial na proteção de comércios, lojas, galpões e indústrias contra danos causados pela água da chuva. Com as calhas de aço galvanizado da Fabricalhas em Araucária, você assegura uma solução confiável e duradoura para proteger seu estabelecimento.
                 " secondText="Fabricadas com aço galvanizado de alta qualidade, nossas calhas são projetadas para suportar as condições climáticas mais adversas, garantindo uma drenagem eficiente e duradoura da água da chuva. A galvanização oferece uma camada protetora contra a corrosão, aumentando a vida útil das calhas e assegurando sua performance a longo prazo.
                 " extraText="Além de proteger a estrutura do seu estabelecimento contra danos causados pela umidade, nossas calhas possuem design inteligente e instalação precisa, garantindo um desempenho excepcional em qualquer condição climática. Na Fabricalhas, nosso compromisso é oferecer produtos de qualidade superior e um serviço impecável, sempre visando sua satisfação total." extraText2="Confie na Fabricalhas para fornecer calhas de aço galvanizado em Araucária e garantir a proteção duradoura de seu comércio, loja, galpão ou indústria. Entre em contato conosco hoje mesmo para mais informações e para solicitar um orçamento personalizado!" firstImg={'/Calhas/12.webp'} secondImg={'/Calhas/1.webp'} />   
-                            <Footer />
+                
+                <FacQuestions Q1="Por que devo escolher calhas em Araucária de aço galvanizado da Fabricalhas?" R1="Nossas calhas oferecem durabilidade e resistência excepcionais, ideais para proteger comércios, lojas, galpões e indústrias." Q2="Quais são os benefícios do aço galvanizado em calhas?" R2="O aço galvanizado oferece resistência à corrosão, prolongando a vida útil das calhas e garantindo proteção eficaz contra os elementos." Q3="Vocês oferecem serviços de instalação de calhas?" R3="Sim, contamos com uma equipe especializada que realiza a instalação profissional de calhas em diversos tipos de estabelecimentos." Q4="Quais são as opções de personalização disponíveis para calhas em Araucária?" R4="Oferecemos calhas sob medida, adaptadas às necessidades específicas de cada cliente e de seu estabelecimento." Q5="Como faço para realizar a manutenção das calhas?" R5="Recomendamos a limpeza regular das calhas para evitar obstruções e garantir o bom funcionamento do sistema de drenagem." Q6="Qual é a garantia oferecida para as calhas em aço galvanizado da Fabricalhas?" R6="Nossas calhas são garantidas contra defeitos de fabricação e oferecemos suporte pós-venda para garantir a satisfação do cliente." Q7="Vocês realizam entrega e instalação em toda a região de Araucária?" R7="Sim, atendemos toda a região de Araucária e oferecemos entrega e instalação conforme a necessidade do cliente." Q8="Posso agendar uma visita técnica para avaliação do local antes da instalação das calhas?" R8="Sim, oferecemos visitas técnicas para avaliação do local e fornecimento de orientações personalizadas antes da instalação das calhas." Q9="Quais são os prazos de entrega para as calhas em Araucária?" R9="Os prazos de entrega podem variar conforme a demanda e a disponibilidade dos materiais, mas nossa equipe se esforça para garantir entregas dentro do prazo estipulado." Q10="Como posso entrar em contato com a equipe da Fabricalhas para mais informações?" R10="Você pode entrar em contato conosco por telefone, whatsApp, e-mail ou preenchendo o formulário de contato em nosso site. Estamos à disposição para esclarecer qualquer dúvida e fornecer assistência personalizada." />
+                <Footer />
         </div>
     )
 }
