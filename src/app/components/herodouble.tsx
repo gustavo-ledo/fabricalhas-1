@@ -13,7 +13,7 @@ export default function HeroDouble() {
                     <p className="text-white">Atendemos clientes residenciais, comerciais e industriais, sempre focados na segurança, funcionalidade e visual da sua construção. Entre em contato e descubra como podemos atender às suas necessidades com excelência e profissionalismo.</p>
                     <a href="#" className="text-white bg-blue-700 hover:bg-primary-800 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 flex items-center space-x-2 text-center mt-4 w-[250px]"><WhatsappIcon height="20" width="20"/><span>Fale conosco</span></a>
                 </div>
-                <div className="grid grid-cols-1 gap-4 ">
+                <div className="grid grid-cols-1 gap-4 mt-4 lg:mt-0">
                      <Image src="/Calhas/2.webp" alt="fabricalhasaraucaria" className="w-full h-96 object-cover rounded-lg" height={1500} width={1500} />
                 </div>
             </div>
