@@ -22,7 +22,6 @@ export default function Home() {
         <div className="mt-2">
           <HeroSection />
         </div>
-        
         <div>
           <CardProduct />
         </div>

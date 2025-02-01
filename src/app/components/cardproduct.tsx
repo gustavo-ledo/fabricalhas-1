@@ -37,7 +37,7 @@ export default function CardProduct () {
                 <a href="https://api.whatsapp.com/send?phone=5541992340296" className="text-2xl font-semibold leading-tight text-blue-900 hover:underline dark:text-white">Dutos e Curvas em Aço Galvanizado</a>
                 </div>
                 <div className="pt-3">
-                <p className="text-md font-medium h-[250px] leading-tight text-blue-900 dark:text-white">Melhore a ventilação do seu espaço com os dutos e curvas em aço galvanizado da Fabricalhas. Nossos produtos são fabricados com materiais robustos e instalados por especialistas, assegurando eficiência e durabilidade em ambientes residenciais ou comerciais. Oferecemos soluções confiáveis para criar um ambiente confortável e livre de impurezas.</p>
+                <p className="text-md font-medium h-[250px] leading-tight text-blue-900 dark:text-white">Melhore a  ventilação do seu espaço com os dutos e curvas em aço galvanizado da Fabricalhas. Nossos produtos são fabricados com materiais robustos e instalados por especialistas, assegurando eficiência e durabilidade em ambientes residenciais ou comerciais. Oferecemos soluções confiáveis para criar um ambiente confortável e livre de impurezas.</p>
                 </div>
                 <div className="w-full flex items-center justify-center">
                      <a href="https://api.whatsapp.com/send?phone=5541992340296" className="text-white relative bottom-8 bg-amber-500 hover:bg-primary-800 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 flex items-center space-x-2 text-center justify-center mt-4 w-[200px]"><WhatsappIcon height="20" width="20"/><span>Fale conosco</span></a>

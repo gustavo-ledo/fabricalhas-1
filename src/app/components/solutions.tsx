@@ -22,8 +22,8 @@ export function CarrouselHero() {
             src='/slider/1.png' 
             className=" w-full lg:h-screen" 
             alt='exaustor' 
-            height={1850} 
-            width={1850} 
+            height={2050} 
+            width={2050} 
           />
         </SwiperSlide>
         {/* Slide 2 */}
@@ -32,8 +32,8 @@ export function CarrouselHero() {
             src='/slider/2.png' 
             className=" w-full lg:h-screen" 
             alt='exaustor' 
-            height={1850} 
-            width={1850} 
+            height={2050} 
+            width={2050} 
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -41,8 +41,8 @@ export function CarrouselHero() {
             src='/slider/3.png' 
             className=" w-full lg:h-screen" 
             alt='exaustor' 
-            height={1850} 
-            width={1850} 
+            height={2050} 
+            width={2050} 
           />
         </SwiperSlide>
         <SwiperSlide>
