@@ -12,6 +12,7 @@ import Portfolio from "./components/portfolio";
 import  { CarrouselHero } from "./components/solutions";
 import WhatsappButton from "./components/whatsappbutton";
 import Footer from "./components/footer";
+import Locais from "./components/locais";
 
 export default function Home() {
   return (
@@ -20,30 +21,31 @@ export default function Home() {
           <WhatsappButton />
           <CarrouselHero />
         <div className="mt-2">
-          <HeroSection />
+          <HeroSection cidade="Aráucaria" />
         </div>
         <div>
-          <CardProduct />
+          <CardProduct  cidade="Aráucaria" />
         </div>
         <div>
-          <Portfolio />
+          <Portfolio  cidade="Aráucaria" />
         </div>
         <div>
           <Features />
         </div>
         
           <div>
-            <HeroDouble />
+            <HeroDouble  cidade="Aráucaria" />
           </div>
           <div>
           <Numbers />
         </div>
         <div>
-          <HeroDoubleReverse />
+          <HeroDoubleReverse  cidade="Aráucaria" />
         </div>
         <div>
           <Reviews />
         </div>
+        <Locais cidade="Aráucaria" />
         <Footer />
     </div>
   );

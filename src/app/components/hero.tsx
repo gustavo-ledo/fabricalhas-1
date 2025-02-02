@@ -1,11 +1,16 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
-export default function HeroSection() {
+
+interface Props {
+    cidade?: string;
+}
+
+export default function HeroSection({cidade}: Props) {
     return(
         <section className="bg-white dark:bg-gray-900">
             <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                 <div className="mr-auto place-self-center lg:col-span-7">
-                    <h1 className="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight text-blue-700 leading-none md:text-4xl xl:text-5xl dark:text-white"><span className="text-amber-500">Conheça a Fabricalhas:</span> Especialista em Calhas e Rufos</h1>
+                    <h1 className="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight text-blue-700 leading-none md:text-4xl xl:text-5xl dark:text-white"><span className="text-amber-500">Conheça a Fabricalhas:</span> Especialista em Calhas e Rufos em {cidade}</h1>
                     <h1 className="max-w-2xl mb-2 font-light text-gray-500 lg:mb-2 md:text-lg lg:text-lg dark:text-gray-400">
                     Sua Aliada de Confiança para Garantir Proteção e Estilo na sua Construção
                     </h1>
