@@ -10,7 +10,7 @@ interface Props {
 
 export default function Portfolio({ cidade }: Props) {
   const images = [
-    "/portifolio/42.jpeg",
+    "/portifolio/32.jpeg",
     "/portifolio/2.jpeg",
     "/portifolio/8.jpeg",
     "/portifolio/13.jpeg",
