@@ -59,7 +59,7 @@ export default function Portfolio({ cidade }: Props) {
             <Image
               src={src}
               alt={`fabricalhasaraucaria-${index}`}
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover  rounded-lg"
               height={1500}
               width={1500}
             />
