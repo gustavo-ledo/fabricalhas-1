@@ -50,7 +50,7 @@ export default function Locais({cidade}: Props) {
   ];
 
   return (
-    <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-screen-lg flex items-center flex-col justify-center mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Cabeçalho Principal */}
       <header className="text-center mb-8">
         <h1 className="text-2xl md:text-5xl font-bold text-blue-800 mb-2">
@@ -62,7 +62,7 @@ export default function Locais({cidade}: Props) {
       </header>
 
       {/* Grid de Cidades */}
-      <section className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <section className="grid w-full grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         {cities.map((city) => (
           <Link
             key={city.folderName}

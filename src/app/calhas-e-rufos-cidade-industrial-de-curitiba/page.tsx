@@ -12,6 +12,7 @@ import Portfolio from "../components/portfolio";
 import  { CarrouselHero } from "../components/solutions";
 import WhatsappButton from "../components/whatsappbutton";
 import Footer from "../components/footer";
+import Locais from "../components/locais";
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
         <div>
           <Reviews />
         </div>
+        <Locais cidade="Cidade Insdustrial de Curitiba" />
         <Footer />
     </div>
   );
