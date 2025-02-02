@@ -3,32 +3,91 @@ import Image from "next/image";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import { useState } from "react";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 interface Props {
   cidade?: string;
 }
 
-export default function Portfolio({ cidade }: Props) {
+export default function PortfolioCompleto({ cidade }: Props) {
   const images = [
-    "/portifolio/42.jpeg",
+    "/portifolio/1.jpeg",
     "/portifolio/2.jpeg",
+    "/portifolio/3.jpeg",
+    "/portifolio/4.jpeg",
+    "/portifolio/5.jpeg",
+    "/portifolio/6.jpeg",
+    "/portifolio/7.jpeg",
     "/portifolio/8.jpeg",
+    "/portifolio/9.jpeg",
+    "/portifolio/10.jpeg",
+    "/portifolio/11.jpeg",
+    "/portifolio/12.jpeg",
     "/portifolio/13.jpeg",
+    "/portifolio/14.jpeg",
+    "/portifolio/15.jpeg",
+    "/portifolio/16.jpeg",
+    "/portifolio/17.jpeg",
+    "/portifolio/18.jpeg",
+    "/portifolio/19.jpeg",
+    "/portifolio/20.jpeg",
     "/portifolio/21.jpeg",
+    "/portifolio/22.jpeg",
+    "/portifolio/23.jpeg",
+    "/portifolio/24.jpeg",
+    "/portifolio/25.jpeg",
+    "/portifolio/26.jpeg",
+    "/portifolio/27.jpeg",
+    "/portifolio/28.jpeg",
+    "/portifolio/29.jpeg",
+    "/portifolio/30.jpeg",
     "/portifolio/31.jpeg",
+    "/portifolio/32.jpeg",
+    "/portifolio/33.jpeg",
     "/portifolio/34.jpeg",
-    "/portifolio/49.jpeg",
+    "/portifolio/35.jpeg",
+    "/portifolio/36.jpeg",
+    "/portifolio/37.jpeg",
+    "/portifolio/38.jpeg",
+    "/portifolio/39.jpeg",
+    "/portifolio/40.jpeg",
+    "/portifolio/41.jpeg",
+    "/portifolio/42.jpeg",
+    "/portifolio/43.jpeg",
+    "/portifolio/45.jpeg",
+    "/portifolio/47.jpeg",
     "/portifolio/48.jpeg",
+    "/portifolio/49.jpeg",
+    "/portifolio/50.jpeg",
+    "/portifolio/51.jpeg",
+    "/portifolio/52.jpeg",
+    "/portifolio/53.jpeg",
+    "/portifolio/54.jpeg",
+    "/portifolio/55.jpeg",
+    "/portifolio/56.jpeg",
+    "/portifolio/57.jpeg",
+    "/portifolio/58.jpeg",
+    "/portifolio/59.jpeg",
+    "/portifolio/60.jpeg",
+    "/portifolio/61.png",
+    "/portifolio/62.png",
+    "/portifolio/63.png",
+    "/portifolio/64.png",
+    "/portifolio/65.png",
+    "/portifolio/66.png",
+    "/portifolio/67.png",
+    "/portifolio/68.png"
   ];
 
   const [open, setOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
 
   return (
-    <div className="max-w-screen-xl-xl space-y-10 mb-10 p-2 flex flex-col items-center h-auto">
+    <div className="w-full space-y-10 mb-10 p-2 flex flex-col items-center h-auto">
       <div className="flex flex-col items-center space-y-2 w-full mt-6">
         <h1 className="text-2xl md:text-4xl font-semibold text-blue-800">
-          Conheça nosso portifólio em {cidade}
+          Conheça nosso portifólio
         </h1>
         <h2 className="text-md md:text-xl max-w-screen-lg text-center text-amber-500">
           Soluções Personalizadas da Fabricalhas. Usos e Aplicações de Calhas,
@@ -66,10 +125,6 @@ export default function Portfolio({ cidade }: Props) {
           </div>
         ))}
       </div>
-
-      <a href="/Portfolio" className="p-2 rounded-2xl bg-blue-800 text-white">
-        Ver mais dos nossos trabalhos
-      </a>
 
       {open && (
         <Lightbox
