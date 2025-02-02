@@ -13,6 +13,7 @@ import  { CarrouselHero } from "../components/solutions";
 import WhatsappButton from "../components/whatsappbutton";
 import Footer from "../components/footer";
 import Locais from "../components/locais";
+import Servicos from "../components/servicos";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <div>
           <Portfolio cidade="São José dos Pinhais" />
         </div>
+        <Servicos cidade="São José dos Pinhais" />
         <div>
           <Features  />
         </div>

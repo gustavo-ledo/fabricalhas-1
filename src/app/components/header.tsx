@@ -126,7 +126,7 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <a href="#" className="block py-2 text-blue-700 font-semibold">
+                <a href="#servicos" className="block py-2 text-blue-700 font-semibold">
                   Serviços
                 </a>
               </li>
@@ -198,7 +198,7 @@ export default function Header() {
                 )}
               </li>
               <li>
-                <a href="#" className="block py-2 text-blue-700 font-semibold">
+                <a href="/Portfolio" className="block py-2 text-blue-700 font-semibold">
                   Portfólio
                 </a>
               </li>
