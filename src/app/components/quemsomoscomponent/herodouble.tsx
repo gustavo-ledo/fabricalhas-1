@@ -18,8 +18,8 @@ export default function HeroDouble() {
                     <a href="#" className="text-white bg-amber-500 hover:bg-primary-800 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 flex items-center space-x-2 text-center mt-4 w-[250px]"><WhatsappIcon height="20" width="20"/><span>Fale conosco</span></a>
                 </div>
                 <div className="grid grid-cols-1 gap-4 mt-8">
-                     <Image src="/teste.jpg" alt="fabricalhasaraucaria" className="w-full object-cover h-96 rounded-lg" height={500} width={500} />
-                     <Image src="/teste.jpg" alt="fabricalhasaraucaria"  className="mt-4 object-cover h-96 w-full lg:mt-10 rounded-lg" height={500} width={500} />
+                     <Image src="/portifolio/18.jpeg" alt="fabricalhasaraucaria" className="w-full object-cover h-96 rounded-lg" height={1500} width={1500} />
+                     <Image src="/portifolio/40.jpeg" alt="fabricalhasaraucaria"  className="mt-4 object-cover h-96 w-full lg:mt-10 rounded-lg" height={1500} width={1500} />
                 </div>
             </div>
         </section>
