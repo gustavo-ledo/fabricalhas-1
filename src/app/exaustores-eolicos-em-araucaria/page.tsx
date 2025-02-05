@@ -9,7 +9,13 @@ import FeaturesTwo from "../components/quemsomoscomponent/featurestwo";
 
 export default function Exautores() {
     return (
-        <div>
+       <>
+            <head>
+                <title>Exaustores Eólicos em Araucária</title>
+                <meta name="description" content="Descubra nossos exaustores eólicos em Araucária, projetados para garantir ventilação eficiente e soluções sustentáveis para ambientes industriais e comerciais." />
+                <meta name="robots" content="index, follow" />
+            </head>
+         <div>
             <Header />
             <Hero title="Eficiência Sustentável: Exaustores Eólicos em Araucária pela Fabricalhas" description="Inovação e Compromisso Ambiental em Cada Projeto" subTitle="A Fabricalhas está transformando o cenário industrial em Araucária com seus exhaustores eólicos de alto desempenho. Combinando tecnologia de ponta e um forte compromisso com a sustentabilidade, oferecemos soluções de ventilação eficiente e ecológica para uma variedade de setores.
 
@@ -35,5 +41,6 @@ export default function Exautores() {
             
             <Footer />
         </div>
+       </>
     )
 }

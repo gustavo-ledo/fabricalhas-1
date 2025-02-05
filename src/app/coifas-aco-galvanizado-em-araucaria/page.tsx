@@ -10,6 +10,12 @@ import FeaturesTwo from "../components/quemsomoscomponent/featurestwo";
 
 export default function Coifas() {
     return(
+        <>
+            <head>
+                <title>Coifas de aço galvanizado em Araucária</title>
+                <meta name="description" content="Conheça as coifas de aço galvanizado da Fabricalhas em Araucária, projetadas para garantir ventilação eficiente e proteção em ambientes industriais e comerciais." />
+                <meta name="robots" content="index, follow" />
+            </head>
         <div>
             <Header />
                 <Hero title="Ventilação Profissional: Coifas de Aço Galvanizado em Araucária pela Fabricalhas" subTitle="" description="Descubra a combinação perfeita de qualidade e eficiência com as coifas de aço galvanizado da Fabricalhas, projetadas especialmente para ambientes corporativos. Fabricadas com rigorosos padrões de excelência, nossas coifas oferecem uma ventilação eficiente e segura, garantindo um ambiente de trabalho mais saudável e confortável. Conte com a durabilidade e o desempenho superior de nossos produtos para elevar o padrão do seu espaço corporativo.
@@ -62,5 +68,6 @@ export default function Coifas() {
                 " R7="As coifas de aço galvanizado podem ser instaladas de forma integrada, suspensa ou em paredes, dependendo das necessidades e características do espaço." Q8="As coifas de aço galvanizado são adequadas para ambientes industriais?" R8="Sim, as coifas de aço galvanizado são ideais para ambientes industriais, devido à sua resistência e durabilidade, além da capacidade de lidar com altas demandas de ventilação." Q9="Quais são as vantagens de escolher as coifas de aço galvanizado em vez de outros materiais?" R9="As vantagens incluem durabilidade, resistência à corrosão, baixa manutenção e eficiência na remoção de fumaça e odores." Q10="Quais são os prazos de entrega para as coifas de aço galvanizado fornecidas pela Fabricalhas?" R10="Os prazos de entrega podem variar dependendo da complexidade do projeto e da demanda, mas a Fabricalhas se esforça para fornecer coifas de alta qualidade dentro de prazos razoáveis, garantindo a satisfação do cliente." />
             <Footer />
         </div>
+        </>
     )
 }

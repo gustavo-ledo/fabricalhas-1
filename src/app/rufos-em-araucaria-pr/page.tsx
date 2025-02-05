@@ -9,7 +9,13 @@ import FeaturesTwo from "../components/quemsomoscomponent/featurestwo";
 
 export default function Rufos() {
     return (
-        <div>
+        <>
+            <head>
+            <title>Rufos em Araucária - Paraná</title>
+            <meta name="description" content="Especialista na fabricação e instalação de rufos em Araucária-PR, oferecendo proteção duradoura e qualidade para sua construção." />
+            <meta name="robots" content="index, follow" />
+            </head>
+            <div>
             <Header />
                 <Hero title="Rufos em Araucária: Proteção Duradoura para Comércios, Lojas e Indústrias" subTitle="Aço Galvanizado de Alta Qualidade para Garantir Resistência e Estilo" description="Com os rufos de aço galvanizado da Fabricalhas em Araucária, sua empresa não só ganha proteção contra as intempéries, mas também adiciona um toque de elegância ao visual de qualquer edifício comercial ou industrial. Fabricados com materiais de alta qualidade, nossos rufos são projetados para suportar os desafios climáticos e garantir a integridade estrutural por muitos anos.
                 " Img="/Rufos/1.webp" />
@@ -35,6 +41,7 @@ export default function Rufos() {
                 <FacQuestions Q1="Quais são os benefícios dos rufos em Araucária de aço galvanizado?" R1="Os rufos em Araucária de aço galvanizado oferecem durabilidade, resistência à corrosão e proteção eficaz contra infiltrações de água." Q2="Como os rufos para chaminés podem proteger minha casa?" R2="Os rufos para chaminés evitam a entrada de água na estrutura, prevenindo danos causados pela umidade e prolongando a vida útil da chaminé." Q3="Qual a função dos rufos para paredes?" R3="Os rufos para paredes impedem que a água da chuva escorra pelas paredes, protegendo contra danos e infiltrações." Q4="O que são rufos para coifas e como são aplicados?" R4="Os rufos para coifas são instalados ao redor das saídas de ar das cozinhas, garantindo uma vedação eficaz e evitando infiltrações de água." Q5="Quais os diferenciais dos rufos da Fabricalhas para residências?" R5="Os rufos da Fabricalhas são fabricados sob medida, garantindo uma instalação precisa e eficaz para proteção duradoura." Q6="Como os rufos para comércios contribuem para a segurança do estabelecimento?" R6="Os rufos para comércios evitam danos estruturais causados pela água, protegendo assim o patrimônio e garantindo a segurança dos clientes e funcionários." Q7="Quais os benefícios dos rufos para lojas em termos estéticos?" R7="Os rufos para lojas oferecem um acabamento elegante e profissional, contribuindo para a estética do estabelecimento e atraindo clientes." Q8="Como os rufos para indústrias protegem os equipamentos e maquinários?" R8="Os rufos para indústrias evitam a entrada de água nos ambientes internos, protegendo equipamentos sensíveis e reduzindo o risco de danos." Q9="Por que os galpões precisam de rufos de alta qualidade?" R9="Os rufos para galpões garantem a proteção das estruturas contra vazamentos e corrosão, prolongando assim a vida útil do edifício." Q10="A instalação dos rufos em Araucária é complexa?" R10="Não, a instalação dos rufos em Araucária é relativamente simples, especialmente quando realizada por profissionais qualificados, como os da Fabricalhas, garantindo assim um resultado seguro e duradouro." />
             <Footer />
         </div>
+        </>
     )
 }
 

@@ -10,6 +10,12 @@ import FeaturesTwo from "../components/quemsomoscomponent/featurestwo";
 
 export default function Condutores() {
     return(
+       <>
+         <head>
+                <title>Condutores de Calhas em Araucária</title>
+                <meta name="description" content="Descubra os condutores de calhas da Fabricalhas em Araucária, desenvolvidos com aço galvanizado para garantir eficiência e durabilidade no escoamento de água." />
+                <meta name="robots" content="index, follow" />
+            </head>
         <div>
             <Header />
             <Hero title="Condutores de Calhas em Araucária de Aço Galvanizado: Estruturas Duráveis da Fabricalhas" subTitle="Proteção e Eficiência para o Seu Telhado" description="Conheça a qualidade superior dos condutores de calhas em Araucária de aço galvanizado da Fabricalhas. Desenvolvidos com materiais de alta resistência, nossos condutores garantem uma solução eficiente para o escoamento da água da chuva, oferecendo durabilidade e confiabilidade em todas as condições climáticas. Proporcione ao seu telhado a proteção necessária com nossas soluções de excelência em drenagem e segurança." Img="/CondutorasDeCalhas/1.webp" />
@@ -29,5 +35,6 @@ export default function Condutores() {
             
             <Footer />
         </div>
+       </>
     )
 }

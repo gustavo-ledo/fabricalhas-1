@@ -14,6 +14,11 @@ import WhatsappButton from "../components/whatsappbutton";
 export default function QuemSomos() {
     return(
         <>
+         <head>
+            <title>Fabricalhas - Quem somos</title>
+            <meta name="description" content="Conheça a Fabricalhas, referência em fabricação e instalação de calhas e rufos em Araucária, oferecendo proteção e qualidade para sua construção." />
+            <meta name="robots" content="index, follow" />
+            </head>
             <div className="flex-col">
                     <Header />
                       <WhatsappButton />

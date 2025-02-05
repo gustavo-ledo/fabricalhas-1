@@ -14,10 +14,17 @@ import WhatsappButton from "./components/whatsappbutton";
 import Footer from "./components/footer";
 import Locais from "./components/locais";
 import Servicos from "./components/servicos";
+import Head from 'next/head';
 
 export default function Home() {
   return (
-    <div className="flex-col">
+    <>
+      <head>
+        <title>Calhas e Rufos em Araucária - Fabricalhas</title>
+        <meta name="description" content="Soluções robustas e duráveis em calhas e rufos para proteger seu patrimônio em Araucária." />
+        <meta name="robots" content="index, follow" />
+      </head>
+      <div className="flex-col">
         <Header />
           <WhatsappButton />
           <CarrouselHero />
@@ -50,5 +57,6 @@ export default function Home() {
         <Locais cidade="Aráucaria" />
         <Footer />
     </div>
+    </>
   );
 }

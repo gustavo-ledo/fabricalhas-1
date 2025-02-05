@@ -8,7 +8,13 @@ import FeaturesTwo from "../components/quemsomoscomponent/featurestwo";
 
 export default function Dutos() {
     return(
-        <div>
+        <>
+            <head>
+                <title>Dutos e Curvas de aço galvanizado em Araucária</title>
+                <meta name="description" content="Conheça nossos dutos e curvas de aço galvanizado em Araucária, projetados para garantir ventilação eficiente e soluções resistentes para ambientes industriais e comerciais." />
+                <meta name="robots" content="index, follow" />
+            </head>
+            <div>
             <Header />
                 <Hero title="Soluções de Ventilação Personalizadas: Dutos e Curvas de Aço Galvanizado em Araucária pela Fabricalhas" subTitle="Ofertas Especiais para uma Ventilação Eficiente e Durável
                 " description="A Fabricalhas oferece soluções personalizadas de ventilação com a fabricação e instalação de dutos e curvas de aço galvanizado em Araucária e região. Com ofertas especiais, garantimos que nossas soluções proporcionem uma ventilação eficiente e durável, atendendo perfeitamente às necessidades específicas de residências, comércios e indústrias." Img="/DutosCurvas/1.webp" />
@@ -45,5 +51,6 @@ export default function Dutos() {
                 " R10="Sim, os dutos de aço galvanizado são frequentemente usados em ambientes externos devido à sua resistência à corrosão, desde que sejam devidamente protegidos contra danos físicos e exposição a produtos químicos agressivos." />
             <Footer />
         </div>
+        </>
     )
 }
