@@ -66,18 +66,6 @@ export default function PortfolioCompleto({ cidade }: Props) {
     "/portifolio/54.jpeg",
     "/portifolio/55.jpeg",
     "/portifolio/56.jpeg",
-    "/portifolio/57.jpeg",
-    "/portifolio/58.jpeg",
-    "/portifolio/59.jpeg",
-    "/portifolio/60.jpeg",
-    "/portifolio/61.png",
-    "/portifolio/62.png",
-    "/portifolio/63.png",
-    "/portifolio/64.png",
-    "/portifolio/65.png",
-    "/portifolio/66.png",
-    "/portifolio/67.png",
-    "/portifolio/68.png"
   ];
 
   const [open, setOpen] = useState(false);
