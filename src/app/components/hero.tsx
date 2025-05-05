@@ -6,10 +6,12 @@ import Image from "next/image";
 interface Props {
     cidade?: string;
 }
+//ooooo
+
 
 export default function HeroSection({ cidade }: Props) {
     const [mostrarMais, setMostrarMais] = useState(false);
-
+    const cidadeDefault = "Araucária";
     const textoCompleto = `
     A Fabricalhas é uma excelente escolha em soluções na instalação de calhas e rufos em ${cidade}, para assim melhor atender todos os nossos clientes. Atendemos toda a diversidade e complexidade da sua obra, através dos anos de serviços e experiência de nossos calheiros. A Fabricalhas é referência em calhas na cidade de ${cidade}. A Fabricalhas vem se destacando na fabricação de calhas, coifas e chaminés em ${cidade}, executando serviços na cidade de Curitiba e região há mais de 10 anos. Nossa qualificação e preço justo são nossos principais diferenciais. Atendemos grandes e complexas obras de calhas e também temos todas as opções de chapas, galvanizadas, galvalume, alumínio, inox e também com pinturas epóxi nas cores que desejar, tudo que você procura em calhas, coifas e chaminés na cidade de ${cidade}. Atendemos inclusive vazamentos e manutenções básicas para seu telhado, como limpezas e troca de telhas.
 
